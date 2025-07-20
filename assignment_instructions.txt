@@ -1,0 +1,40 @@
+Assignment Details
+
+You will add to the existing code building process by adding code quality checks to the build process.
+The final submission will be a DockerFile that will have the component library running at localhost:8018 (127.0.0.1:8018).
+This new implementation for the UI Component library from assignment 12 will add a Huskey implementation,
+that runs pre-commit checks to ensure that all code that is submitted passes a:
+Prettier check,
+Eslint check,
+and all tests.
+
+Students can use the following article as a reference.
+How to Add Commit Hooks to Git with Husky to Automate Code Tasks: https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-automate-code-tasks/
+
+You will also ensure that these checks are run for every code submission in their GitHub accounts using GitHub actions (https://github.com/features/actions).
+The following article can be used as refence. 
+How to build a CI/CD pipeline with GitHub Actions in four simple steps: https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/
+
+Detailed Instructions 
+
+You will submit a dockerfile with a README.md file that will contain instructions on how to get the web application running on localhost port:8018 
+DockerFille will have to satisfy the following requirements  
+    DockerFile will build a container that hosts a production build of the create react app of the newly built component library  
+    You will create a container with the name “lastName_firstName_coding_assignment13”
+    You will host the site files in a working dir called “lastName_firstName_ui_garden_build_checks” 
+    You will have a pre-commit check that checks that the code passes the following checks: 
+        Prettier
+        EsLint 
+        Tests 
+Such that if a modification is made to any of these rules, then the user should not be able to submit code.
+You will also ensure that this workflow is represented in the student's GitHub account,
+such that if the dev environment pre-commit hooks are bypassed,
+the same checks will be run in the GitHub Repo and that the user will be notified that the build failed.  
+
+Supporting Resources:
+You can use the following resources as references: 
+
+How to Add Commit Hooks to Git with Husky to Automate Code Tasks: https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-automate-code-tasks/
+How to build a CI/CD pipeline with GitHub Actions in four simple steps: https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/
+React + TypeScript + ESLint + Prettier Full Setup: https://dev.to/suchintan/reacttypescripteslint-prettier-full-setup-p7j
+ESLint + Prettier + Typescript and React in 2022: https://blog.devgenius.io/eslint-prettier-typescript-and-react-in-2022-e5021ebca2b1
