@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepare": "husky"
+    "prepare": "husky",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "react": "^19.1.0",
