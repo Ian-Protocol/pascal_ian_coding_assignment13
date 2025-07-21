@@ -1,5 +1,5 @@
 export interface ButtonProps {
-    label: string;
-    disabled?: boolean;
-    backgroundColor?: string;
+  label: string;
+  disabled?: boolean;
+  backgroundColor?: string;
 }

@@ -1,10 +1,10 @@
 export interface DropdownOption {
-    label: string;
-    value: string;
+  label: string;
+  value: string;
 }
 
 export interface DropdownProps {
-    options: DropdownOption[];
-    disabled?: boolean;
-    backgroundColor?: string;
+  options: DropdownOption[];
+  disabled?: boolean;
+  backgroundColor?: string;
 }
