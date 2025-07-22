@@ -20,10 +20,12 @@ Run: `docker run -d -p 8018:8018 --name pascal_ian_coding_assignment13 pascal_ia
 Open your browser and navigate to: `http://localhost:8018`
 
 # Pre-Commit Behaviour
+
 This repo uses **Husky** to reject bad commits.
 Upon commit, the following checks are run:
+
 - `npm run lint` - This runs ESLint, which helps to find and fix issues in the code.
-- `npm run format:check` - This runs Prettier, which formats code thus making it *prettier*. If you want to run Prettier before committing, run `npx prettier --write .`.
+- `npm run format:check` - This runs Prettier, which formats code thus making it _prettier_. If you want to run Prettier before committing, run `npx prettier --write .`.
 - `npm run test` - This runs the Vitest test suite, running all the custom-made tests.
 
 If any of these checks fail, the commit is rejected.

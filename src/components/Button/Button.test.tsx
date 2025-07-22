@@ -1,6 +1,8 @@
 import { render, screen } from "@testing-library/react";
 import { Button } from ".";
 
+// Testing the Button component.
+
 describe("Button Component", () => {
   it("renders and is visible", () => {
     render(<Button label="Test Button" />);
