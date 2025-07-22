@@ -2,6 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { Button } from ".";
 
 // Testing the Button component.
+// Test again, for we test again after we test again.
 
 describe("Button Component", () => {
   it("renders and is visible", () => {
