@@ -8,7 +8,7 @@
     "test:watch": "vitest --watch",
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "lint": "eslint . --ignore-pattern node_modules/ --ignore-pattern storybook-static/",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
