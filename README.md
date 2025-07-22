@@ -31,3 +31,6 @@ Upon commit, the following checks are run:
 If any of these checks fail, the commit is rejected.
 
 In addition, Github Actions enforce the same checks remotely on every push.
+
+## Important!
+If you want to test the pre-commit checks locally, run `npm install` after opening the cloned repo in your IDE!
